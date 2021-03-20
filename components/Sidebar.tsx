@@ -7,19 +7,23 @@ import { GiTie } from 'react-icons/gi';
 import { useTheme } from 'next-themes';
 
 const Sidebar = () => {
-  const toggleTheme = () => {
-    setTheme(theme === 'light' ? 'dark' : 'light');
-  };
   const { theme, setTheme } = useTheme();
+
+  const toggleTheme = () => {
+    setTheme(theme === 'dark' ? 'light' : 'dark');
+  };
+
+  const changePageTheme = theme === 'dark' ? 'Light Theme' : 'Dark Theme';
 
   return (
     <div>
       <Image
         src='/charles.jpg'
         alt='charles'
-        width='100px'
-        height='100px'
-        className='mx-auto rounded-full'
+        width='150px'
+        height='150px'
+        className='mx-auto border rounded-full'
+        quality='100'
       />
       <h1 className='my-4 font-medium tracking-wider text-3x1 font-Kaushan'>
         Charles Peterson
@@ -71,7 +75,7 @@ const Sidebar = () => {
         onClick={toggleTheme}
         className='w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400 focus:outline-none'
       >
-        Toggle Theme
+        {changePageTheme}
       </button>
     </div>
   );

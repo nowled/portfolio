@@ -1,12 +1,19 @@
 import React from 'react';
 import Bar from '../components/Bar';
 import { languages, tools } from '../data';
-
-const resume = () => {
+import { motion } from 'framer-motion';
+import { fadeIn, routeAnimation } from '../animations';
+const Resume = () => {
   return (
-    <div className='p-2 px-6'>
+    <motion.div
+      className='px-6 py-2'
+      variants={routeAnimation}
+      initial='initial'
+      animate='animate'
+      exit='exit'
+    >
       <div className='grid gap-6 md:grid-cols-2'>
-        <div>
+        <motion.div variants={fadeIn} initial='initial' animate='animate'>
           <h4 className='my-3 text-2xl font-bold'>Education</h4>
           <div>
             <p className='my-2 font-medium'>Computer Science degree</p>
@@ -15,8 +22,8 @@ const resume = () => {
             </p>
             <p className='my-2 font-medium'>Bloc.io BootCamp</p>
           </div>
-        </div>
-        <div>
+        </motion.div>
+        <motion.div variants={fadeIn} initial='initial' animate='animate'>
           <h4 className='my-3 text-2xl font-bold'>Experience</h4>
           <div>
             <p className='my-2 font-medium'>Computer Science degree</p>
@@ -25,8 +32,9 @@ const resume = () => {
             </p>
             <p className='my-2 font-medium'>Bloc.io BootCamp</p>
           </div>
-        </div>
+        </motion.div>
       </div>
+
       <div className='grid gap-6 md:grid-cols-2'>
         <div>
           <h5 className='my-3 text-2xl font-bold'>Languages & Frameworks</h5>
@@ -45,8 +53,8 @@ const resume = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
-export default resume;
+export default Resume;
