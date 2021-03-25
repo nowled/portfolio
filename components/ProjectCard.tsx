@@ -64,7 +64,7 @@ const ProjectCard: FunctionComponent<{
                 href={deployed_url}
                 className='flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200'
               >
-                <AiFillProject /> <span>Project</span>
+                <AiFillProject /> <span>Portfolio</span>
               </a>
             </motion.div>
           </motion.div>

@@ -15,9 +15,9 @@ const index = () => {
       exit='exit'
     >
       <h5 className='my-3 font-medium'>
-        I have been involved in everything computer related. I am a Web
-        developer / Software Engineer . In the past 3 years I have worked with
-        React, Typescript, Javascript, Node.js, Next.js Gatsby and Express.
+        Well-qualified Full Stack Developer familiar with wide range of
+        programming utilities and languages. Knowledgeable of backend and
+        frontend development requirements.
       </h5>
       <div
         className='flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100'

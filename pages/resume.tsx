@@ -27,11 +27,11 @@ const Resume = () => {
         <motion.div variants={fadeIn} initial='initial' animate='animate'>
           <h4 className='my-3 text-2xl font-bold'>Experience</h4>
           <div>
-            <p className='my-2 font-medium'>Computer Science degree</p>
+            <p className='my-2 font-medium'>Niti (Aramco) Saudi Arabia</p>
             <p className='my-2 font-medium'>
-              Temple University Japan/ Java course
+              KM Bilal, (Russian Startup) Chang Mai
             </p>
-            <p className='my-2 font-medium'>Bloc.io BootCamp</p>
+            <p className='my-2 font-medium'>Part 2 Productions, Osaka, Japan</p>
           </div>
         </motion.div>
       </div>
