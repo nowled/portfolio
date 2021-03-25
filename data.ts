@@ -93,7 +93,7 @@ export const tools: ISkill[] = [
     Icon: BsCircleFill,
   },
   {
-    name: 'FireBase/FireStore',
+    name: 'FireBase',
     level: '60%',
     Icon: BsCircleFill,
   },
@@ -106,6 +106,7 @@ export const tools: ISkill[] = [
 
 export const projects: IProject[] = [
   {
+    id: 1,
     name: 'Neflix Clone',
     image_path: '/images/Netflix-Clone.png',
     description:
@@ -117,6 +118,7 @@ export const projects: IProject[] = [
     key_techs: ['React', 'Firebase'],
   },
   {
+    id: 2,
     name: 'Crypto Dashboard',
     image_path: '/images/CryptoDash.png',
     description: 'This is Crypto currency',
@@ -124,5 +126,35 @@ export const projects: IProject[] = [
     github_url: 'https://github.com/nowled/bitcoin-dashboard',
     category: ['react'],
     key_techs: ['React', 'React-highcharts', 'styled-components'],
+  },
+  {
+    id: 3,
+    name: 'Ticket System',
+    image_path: '/images/TicketSys.png',
+    description: 'An Electron Ticketing System',
+    deployed_url: '#',
+    github_url: 'https://github.com/nowled/bitcoin-dashboard',
+    category: ['electron'],
+    key_techs: ['Electron'],
+  },
+  {
+    id: 4,
+    name: 'ESL School',
+    image_path: '/images/language2.png',
+    description: 'An Online English Learning Platform',
+    deployed_url: '#',
+    github_url: 'https://github.com/nowled/bitcoin-dashboard',
+    category: ['react'],
+    key_techs: ['React', 'Styled-components'],
+  },
+  {
+    id: 5,
+    name: 'Amazon Clone',
+    image_path: '/images/amazone-clone.png',
+    description: 'An Amazone Clone',
+    deployed_url: 'https://igotfiveonit-87979.web.app',
+    github_url: 'https://github.com/nowled/bitcoin-dashboard',
+    category: ['react'],
+    key_techs: ['React', 'Styled-Components', 'Firebase', 'Material-UI'],
   },
 ];

@@ -12,9 +12,9 @@ const Bar: FunctionComponent<{
     animate: {
       width: level,
       transition: {
-        duration: 0.4,
+        duration: 0.2,
         type: 'spring',
-        damping: 10,
+        damping: 4,
         stiffness: 100,
       },
     },

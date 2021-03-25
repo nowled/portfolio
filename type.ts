@@ -13,6 +13,7 @@ export interface ISkill {
 }
 
 export interface IProject {
+  id: number;
   name: string;
   description: string;
   image_path: string;
@@ -22,4 +23,8 @@ export interface IProject {
   key_techs: string[];
 }
 
-export type Category = 'react' | 'node' | 'express' | 'electron';
+export type Category =
+  | 'react'
+  | 'electron'
+  | 'styled-components'
+  | 'react-bootstrap';

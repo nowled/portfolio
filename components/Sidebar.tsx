@@ -10,7 +10,7 @@ const Sidebar = () => {
   const { theme, setTheme } = useTheme();
 
   const toggleTheme = () => {
-    setTheme(theme === 'dark' ? 'light' : 'dark');
+    setTheme(theme === 'light' ? 'dark' : 'light');
   };
 
   const changePageTheme = theme === 'dark' ? 'Light Theme' : 'Dark Theme';
@@ -33,8 +33,8 @@ const Sidebar = () => {
       </p>
       <a
         className='flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200'
-        href=''
-        download='name'
+        href='/assets/Charles_P_Resume.pdf'
+        download='Charles_P_Resume.pdf'
       >
         <GiTie className='w-6 h-6' />
         Download Resume
