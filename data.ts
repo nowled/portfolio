@@ -114,7 +114,7 @@ export const projects: IProject[] = [
   {
     id: 1,
     name: 'Neflix Clone',
-    image_path: '/images/netclone.png',
+    image_path: '/images/netclone.png?nf_resize=fit&w=286.81&h=213.97',
     description: 'A fun Netflix Clone using, React, hooks, and Firebase.',
 
     deployed_url: 'https://netflix-clone-ef730.web.app/',
@@ -125,7 +125,7 @@ export const projects: IProject[] = [
   {
     id: 2,
     name: 'Crypto Dashboard',
-    image_path: '/images/crypto.png',
+    image_path: '/images/crypto.png?nf_resize=fit&w=286.81&h=213.97',
     description:
       'Crypto currency dashboard, which gives an up-to-date chart analysis of the latest crypto trends.',
     deployed_url: 'https://trusting-snyder-4e7c48.netlify.app',
@@ -136,7 +136,7 @@ export const projects: IProject[] = [
   {
     id: 3,
     name: 'Bug Tracker',
-    image_path: '/images/bugtrack.png',
+    image_path: '/images/bugtrack.png?nf_resize=fit&w=286.81&h=213.97',
     description: 'A Bug Tracker for Developers created in Electron.',
     deployed_url: 'https://github.com/nowled/electron-ticket-system',
     github_url: 'https://github.com/nowled/electron-ticket-system',
@@ -146,7 +146,7 @@ export const projects: IProject[] = [
   {
     id: 4,
     name: 'Online ESL language School',
-    image_path: '/images/else.png',
+    image_path: '/images/else.png?nf_resize=fit&w=286.81&h=213.97',
     description:
       'An Online Platform to allow English learners to discuss and talk about movies with native English speakers.',
     deployed_url: 'https://zen-heyrovsky-133443.netlify.app/',
@@ -157,7 +157,7 @@ export const projects: IProject[] = [
   {
     id: 5,
     name: 'Amazon Clone',
-    image_path: '/images/amazon.png',
+    image_path: '/images/amazon.png?nf_resize=fit&w=286.81&h=213.97',
     description: 'An Amazon Clone.',
     deployed_url: 'https://igotfiveonit-87979.web.app',
     github_url: 'https://github.com/nowled/amazon-clone',
