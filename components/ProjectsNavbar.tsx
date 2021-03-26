@@ -26,6 +26,8 @@ const ProjectsNavbar: FunctionComponent<{
       <NavItem value='all' {...props} />
       <NavItem value='react' {...props} />
       <NavItem value='electron' {...props} />
+      <NavItem value='typescript' {...props} />
+      <NavItem value='framer motion' {...props} />
     </div>
   );
 };

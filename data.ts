@@ -114,7 +114,7 @@ export const projects: IProject[] = [
   {
     id: 1,
     name: 'Neflix Clone',
-    image_path: '/images/newnet.png',
+    image_path: '/images/net.png',
     description: 'A fun Netflix Clone using, React, hooks, and Firebase.',
 
     deployed_url: 'https://netflix-clone-ef730.web.app/',
@@ -146,7 +146,7 @@ export const projects: IProject[] = [
   {
     id: 4,
     name: 'Online ESL language School',
-    image_path: '/images/els1.png',
+    image_path: '/images/els.jpg',
     description:
       'An Online Platform to allow English learners to discuss and talk about movies with native English speakers.',
     deployed_url: 'https://zen-heyrovsky-133443.netlify.app/',
@@ -156,12 +156,29 @@ export const projects: IProject[] = [
   },
   {
     id: 5,
-    name: 'Amazon Clone',
-    image_path: '/images/newamazon.png',
-    description: 'An Amazon Clone.',
-    deployed_url: 'https://igotfiveonit-87979.web.app',
-    github_url: 'https://github.com/nowled/amazon-clone',
+    name: 'Covid-19 Tracker',
+    image_path: '/images/covid-19.png',
+    description: 'An Obligatory Covid-19 API.',
+    deployed_url: 'https://ecstatic-spence-8bc398.netlify.app/',
+    github_url: 'https://github.com/nowled/covid19',
     category: ['react'],
-    key_techs: ['React', 'Styled-Components', 'Firebase', 'Material-UI'],
+    key_techs: [
+      'React',
+      'CSS modules',
+      'Chart.js',
+      'Material-UI',
+      'Moment',
+      'React-Chartjs-2',
+    ],
+  },
+  {
+    id: 6,
+    name: 'My Portfolio',
+    image_path: '/images/mysite.png',
+    description: 'This Portfolio.',
+    deployed_url: '/',
+    github_url: 'https://github.com/nowled/portfolio',
+    category: ['react', 'typescript', 'tailwind', 'framer motion'],
+    key_techs: ['React', 'Tailwind', 'TypeScript', 'Next.js', 'Framer Motion'],
   },
 ];

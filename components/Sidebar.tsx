@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Image from 'next/image';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { GoLocation } from 'react-icons/go';
@@ -14,6 +14,10 @@ const Sidebar = () => {
   };
 
   const changePageTheme = theme === 'dark' ? 'Light Theme' : 'Dark Theme';
+
+  useEffect(() => {
+    setTheme('dark');
+  }, []);
 
   return (
     <div>

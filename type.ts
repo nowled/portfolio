@@ -27,4 +27,7 @@ export type Category =
   | 'react'
   | 'electron'
   | 'styled-components'
+  | 'typescript'
+  | 'tailwind'
+  | 'framer motion'
   | 'react-bootstrap';
