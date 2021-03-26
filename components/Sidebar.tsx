@@ -45,7 +45,7 @@ const Sidebar = () => {
       </a>
       {/* social icons */}
       <div className='flex justify-around w-9/12 mx-auto my-5 text-green md:w-full'>
-        <a href=''>
+        <a href='https://github.com/nowled'>
           <AiFillGithub className='w-8 h-8' />
         </a>
         <a href=''>
@@ -64,13 +64,13 @@ const Sidebar = () => {
           <GoLocation />
           <span>Charles Peterson</span>
         </div>
-        <p className='my-2'>nowledster@gmail.com</p>
+        <p className='my-2'>devman585@gmail.com</p>
         <p className='my-2'>WhatsApp # +966 59 309 0216</p>
       </div>
 
       <button
         className='w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green dark:bg-dark-200 to-blue-400 focus:outline-none'
-        onClick={() => window.open('mailto: nowledster@gmail.com')}
+        onClick={() => window.open('mailto:devman585@gmail.com')}
       >
         Email Me
       </button>
