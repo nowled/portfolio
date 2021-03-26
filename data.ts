@@ -114,7 +114,7 @@ export const projects: IProject[] = [
   {
     id: 1,
     name: 'Neflix Clone',
-    image_path: '/images/net.png',
+    image_path: '/images/net.jpg',
     description: 'A fun Netflix Clone using, React, hooks, and Firebase.',
 
     deployed_url: 'https://netflix-clone-ef730.web.app/',
@@ -125,7 +125,7 @@ export const projects: IProject[] = [
   {
     id: 2,
     name: 'Crypto Dashboard',
-    image_path: '/images/cryp.png',
+    image_path: '/images/cryp.jpg',
     description:
       'Crypto currency dashboard, which gives an up-to-date chart analysis of the latest crypto trends.',
     deployed_url: 'https://trusting-snyder-4e7c48.netlify.app',
@@ -136,7 +136,7 @@ export const projects: IProject[] = [
   {
     id: 3,
     name: 'Bug Tracker',
-    image_path: '/images/bugs.png',
+    image_path: '/images/bugs.jpg',
     description: 'A Bug Tracker for Developers created in Electron.',
     deployed_url: 'https://github.com/nowled/electron-ticket-system',
     github_url: 'https://github.com/nowled/electron-ticket-system',
@@ -157,7 +157,7 @@ export const projects: IProject[] = [
   {
     id: 5,
     name: 'Amazon Clone',
-    image_path: '/images/amazon.png?nf_resize=fit&w=286.81&h=213.97',
+    image_path: '/images/am.jpg',
     description: 'An Amazon Clone.',
     deployed_url: 'https://igotfiveonit-87979.web.app',
     github_url: 'https://github.com/nowled/amazon-clone',
