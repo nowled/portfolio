@@ -138,7 +138,7 @@ export const projects: IProject[] = [
     name: 'Bug Tracker',
     image_path: '/images/bugs.png',
     description:
-      'A Bug Tracker applicaation for Developers created in Electron, can be downloaded and run from any computer',
+      'A Bug Tracker application for Developers created in Electron, can be downloaded and run from any computer.',
     deployed_url: 'https://github.com/nowled/electron-ticket-system',
     github_url: 'https://github.com/nowled/electron-ticket-system',
     category: ['electron', 'react'],
