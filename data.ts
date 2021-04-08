@@ -128,7 +128,7 @@ export const projects: IProject[] = [
     image_path: '/images/crypto.png',
     description:
       'Crypto currency dashboard, which gives an up-to-date chart analysis of the latest crypto trends.',
-    deployed_url: 'https://trusting-snyder-4e7c48.netlify.app',
+    deployed_url: 'https://trusting-snyder-4e7c48.netlify.app/',
     github_url: 'https://github.com/nowled/bitcoin-dashboard',
     category: ['react'],
     key_techs: ['React', 'React-highcharts', 'Styled-components'],
