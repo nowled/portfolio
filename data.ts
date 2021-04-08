@@ -135,7 +135,7 @@ export const projects: IProject[] = [
   },
   {
     id: 3,
-    name: 'Bug Tracker',
+    name: 'An Electron Bug Tracker',
     image_path: '/images/bugs.png',
     description:
       'A Bug Tracker application for Developers created in Electron, can be downloaded and run from any computer.',
@@ -146,6 +146,24 @@ export const projects: IProject[] = [
   },
   {
     id: 4,
+    name: 'An Ecommerce Site',
+    image_path: '/images/Flush&Plush.png',
+    description:
+      'An online store that allows customers to redesign their homes with furniture from retro to modern designs.',
+    deployed_url: 'https://flushandplush.netlify.app',
+    github_url: 'https://github.com/nowled/flushandplush',
+    category: ['react'],
+    key_techs: [
+      'React',
+      'Styled-Components',
+      'React Router',
+      'Axios',
+      'Auth0 for authorization',
+      'Stripe for payments',
+    ],
+  },
+  {
+    id: 5,
     name: 'Online ESL language School',
     image_path: '/images/els.jpg',
     description:
@@ -155,23 +173,7 @@ export const projects: IProject[] = [
     category: ['react'],
     key_techs: ['React', 'Styled-components'],
   },
-  {
-    id: 5,
-    name: 'Covid-19 Tracker',
-    image_path: '/images/covid-19.png',
-    description: 'An Obligatory Covid-19 API.',
-    deployed_url: 'https://ecstatic-spence-8bc398.netlify.app/',
-    github_url: 'https://github.com/nowled/covid19',
-    category: ['react'],
-    key_techs: [
-      'React',
-      'CSS modules',
-      'Chart.js',
-      'Material-UI',
-      'Moment',
-      'React-Chartjs-2',
-    ],
-  },
+
   {
     id: 6,
     name: 'My Portfolio',

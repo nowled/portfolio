@@ -1,4 +1,3 @@
-// import { GetStaticPropsContext } from 'next';
 import { motion } from 'framer-motion';
 import React from 'react';
 import { fadeIn, routeAnimation, stagger } from '../animations';
@@ -15,7 +14,7 @@ const index = () => {
       exit='exit'
     >
       <h5 className='my-3 font-medium'>
-        Well-qualified Full Stack Developer familiar with wide range of
+        Well-qualified front-end engineer familiar with wide range of
         programming utilities and languages. Knowledgeable of backend and
         frontend development requirements.
       </h5>
@@ -46,28 +45,3 @@ const index = () => {
 };
 
 export default index;
-
-// export const getServerSideProps = async (context: GetServerSideProps) => {
-//   const res = await fetch('http://localhost:3000/api/services');
-
-//   const data = await res.json();
-//   console.log('Server', services);
-
-//   return {
-//     props: {
-//       services: data.services,
-//     },
-//   };
-// };
-// export const getStaticProps = async (context: GetStaticPropsContext) => {
-//   const res = await fetch('http://localhost:3000/api/services');
-
-//   const data = await res.json();
-//   console.log('Server', services);
-
-//   return {
-//     props: {
-//       services: data.services,
-//     },
-//   };
-// };
