@@ -45,10 +45,10 @@ const Sidebar = () => {
       </a>
       {/* social icons */}
       <div className='flex justify-around w-9/12 mx-auto my-5 text-green md:w-full'>
-        <a href='https://github.com/nowled'>
+        <a href='https://github.com/nowled' target='_blank'>
           <AiFillGithub className='w-8 h-8' />
         </a>
-        <a href=''>
+        <a href='https://www.linkedin.com/feed/' target='_blank'>
           <AiFillLinkedin className='w-8 h-8' />
         </a>
         <a href=''>
@@ -65,7 +65,7 @@ const Sidebar = () => {
           <span>Charles Peterson</span>
         </div>
         <p className='my-2'>devman585@gmail.com</p>
-        <p className='my-2'>WhatsApp # +966 59 309 0216</p>
+        <p className='my-2'></p>
       </div>
 
       <button
