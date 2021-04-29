@@ -17,11 +17,9 @@ const Resume = () => {
         <motion.div variants={fadeIn} initial='initial' animate='animate'>
           <h4 className='my-3 text-2xl font-bold'>Education</h4>
           <div>
-            <p className='my-2 font-medium'>Computer Science degree</p>
-            <p className='my-2 font-medium'>
-              Temple University Japan/ Java course
-            </p>
-            <p className='my-2 font-medium'>Bloc.io BootCamp</p>
+            <p className='my-2 font-medium'> B.S. Computer Science</p>
+            <p className='my-2 font-medium'>Michigan State University</p>
+            <p className='my-2 font-medium'>1996-2000</p>
           </div>
         </motion.div>
         <motion.div variants={fadeIn} initial='initial' animate='animate'>
