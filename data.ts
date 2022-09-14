@@ -151,7 +151,7 @@ export const projects: IProject[] = [
     description:
       'An online store that allows customers to redesign their homes with furniture from retro to modern designs.',
     deployed_url: 'https://flushandplush.netlify.app',
-    github_url: 'https://github.com/nowled/flushandplush',
+    github_url: 'https://github.com/nowled/Flush-Plush',
     category: ['react'],
     key_techs: [
       'React',
